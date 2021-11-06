@@ -1,36 +1,48 @@
 barbara.png 
 ReconNet: ssim:0.75942 psnr:28.92434
 ReconNet_M: ssim:0.82039 psnr:28.90157
+ReconNet_MD: ssim:0.76399 psnr:28.66778
 boats.png 
 ReconNet: ssim:0.81187 psnr:28.27333
 ReconNet_M: ssim:0.90345 psnr:28.32141
+ReconNet_MD: ssim:0.86148 psnr:28.25816
 cameraman.png 
 ReconNet: ssim:0.75578 psnr:31.20991
 ReconNet_M: ssim:0.86194 psnr:32.64423
+ReconNet_MD: ssim:0.81777 psnr:32.04831
 fingerprint.png 
 ReconNet: ssim:0.87015 psnr:29.56315
 ReconNet_M: ssim:0.96305 psnr:32.07838
+ReconNet_MD: ssim:0.93783 psnr:30.70892
 flinstones.png 
 ReconNet: ssim:0.73920 psnr:29.75808
 ReconNet_M: ssim:0.86794 psnr:31.24271
+ReconNet_MD: ssim:0.83699 psnr:30.64395
 foreman.png 
 ReconNet: ssim:0.85828 psnr:28.28206
 ReconNet_M: ssim:0.92157 psnr:28.14639
+ReconNet_MD: ssim:0.88833 psnr:27.91523
 house.png 
 ReconNet: ssim:0.82149 psnr:30.66557
 ReconNet_M: ssim:0.89572 psnr:30.61078
+ReconNet_MD: ssim:0.85541 psnr:29.44738
 lena256.png 
 ReconNet: ssim:0.80643 psnr:30.04235
 ReconNet_M: ssim:0.91364 psnr:30.79571
+ReconNet_MD: ssim:0.91779 psnr:30.80277
 Monarch.png 
 ReconNet: ssim:0.80787 psnr:29.70357
 ReconNet_M: ssim:0.93261 psnr:30.47143
+ReconNet_MD: ssim:0.90239 psnr:30.14659
 Parrots.png 
 ReconNet: ssim:0.83166 psnr:28.95902
 ReconNet_M: ssim:0.91539 psnr:29.60428
+ReconNet_MD: ssim:0.88166 psnr:29.99246
 peppers256.png 
 ReconNet: ssim:0.80794 psnr:31.51335
 ReconNet_M: ssim:0.91239 psnr:33.48994
+ReconNet_MD: ssim:0.88126 psnr:32.28235
 Average
 ReconNet:  ssim:0.80637 psnr:29.71770
 ReconNet_M:  ssim:0.90074 psnr:30.57335
+ReconNet_MD:  ssim:0.86772 psnr:30.08308

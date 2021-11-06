@@ -5,6 +5,7 @@ from torchvision import transforms
 from torch import nn
 from ReconNet import *
 from ReconNet_M import ReconNet_M
+from ReconNet_MD import ReconNet_MD
 from dataset import TestDataset_M
 import cv2
 from matplotlib import pyplot as plt
@@ -93,42 +94,19 @@ def test_reconstruction(model,
 
 
 # %%
-# ReconNet_M重建
 if __name__ == '__main__':
     CS_ratio = 25
+    device = torch.device('cuda')
     simpling_matrix = load_sampling_matrix(CS_ratio)
     reconNet = ReconNet_M(simpling_matrix, CS_ratio)
     reconNet.load_state_dict(torch.load('recon_m_{}.pkl'.format(CS_ratio)))
-    device = torch.device('cuda')
     # %%
     image_path = "./dataset/set11_png/"
     for _, _, files in os.walk(image_path):
         for file in files:
             print(file)
             image_name = os.path.join(image_path, file)
-            test_reconstruction(reconNet, image_name, CS_ratio, device)
+            test_reconstruction(reconNet, image_name, CS_ratio, device, is_sampling=False)
     # %%
     image_name = 'house.png'
-    test_reconstruction(reconNet, image_name, CS_ratio, device)
-
-    # %%
-    # ReconNet重建
-    reconNet = ReconNet(CS_ratio / 100)
-    reconNet.load_state_dict(torch.load('recon_{}.pkl'.format(CS_ratio)))
-    # %%
-    for _, _, files in os.walk(image_path):
-        for file in files:
-            print(file)
-            image_name = os.path.join(image_path, file)
-            test_reconstruction(reconNet,
-                                image_name,
-                                CS_ratio,
-                                device,
-                                is_sampling=True)
-    # %%
-    image_name = 'house.png'
-    test_reconstruction(reconNet,
-                        image_name,
-                        CS_ratio,
-                        device,
-                        is_sampling=True)
+    test_reconstruction(reconNet, image_name, CS_ratio, device, is_sampling=False)
