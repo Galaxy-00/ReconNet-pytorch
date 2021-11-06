@@ -1,0 +1,36 @@
+barbara.png 
+ReconNet: ssim:0.75942 psnr:28.92434
+ReconNet_M: ssim:0.82039 psnr:28.90157
+boats.png 
+ReconNet: ssim:0.81187 psnr:28.27333
+ReconNet_M: ssim:0.90345 psnr:28.32141
+cameraman.png 
+ReconNet: ssim:0.75578 psnr:31.20991
+ReconNet_M: ssim:0.86194 psnr:32.64423
+fingerprint.png 
+ReconNet: ssim:0.87015 psnr:29.56315
+ReconNet_M: ssim:0.96305 psnr:32.07838
+flinstones.png 
+ReconNet: ssim:0.73920 psnr:29.75808
+ReconNet_M: ssim:0.86794 psnr:31.24271
+foreman.png 
+ReconNet: ssim:0.85828 psnr:28.28206
+ReconNet_M: ssim:0.92157 psnr:28.14639
+house.png 
+ReconNet: ssim:0.82149 psnr:30.66557
+ReconNet_M: ssim:0.89572 psnr:30.61078
+lena256.png 
+ReconNet: ssim:0.80643 psnr:30.04235
+ReconNet_M: ssim:0.91364 psnr:30.79571
+Monarch.png 
+ReconNet: ssim:0.80787 psnr:29.70357
+ReconNet_M: ssim:0.93261 psnr:30.47143
+Parrots.png 
+ReconNet: ssim:0.83166 psnr:28.95902
+ReconNet_M: ssim:0.91539 psnr:29.60428
+peppers256.png 
+ReconNet: ssim:0.80794 psnr:31.51335
+ReconNet_M: ssim:0.91239 psnr:33.48994
+Average
+ReconNet:  ssim:0.80637 psnr:29.71770
+ReconNet_M:  ssim:0.90074 psnr:30.57335
